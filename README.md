@@ -10,6 +10,7 @@ See:
 
 Apache example using mod_proxy_ajp:
 
+    ProxyPass /Shibboleth.sso !
     ProxyPass /redbox  ajp://localhost:8009/redbox
     ProxyPassReverse /redbox  ajp://localhost:8009/redbox
 
